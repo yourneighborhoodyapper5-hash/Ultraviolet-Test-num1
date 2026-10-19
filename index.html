@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proxy Client</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Proxy Client</h1>
+
+    <form id="connect-form">
+      <label for="target">Address</label>
+      <input
+        id="target"
+        name="target"
+        type="url"
+        placeholder="https://example.com"
+        required
+      >
+      <button type="submit">Connect</button>
+    </form>
+
+    <p id="status">Backend not configured.</p>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
